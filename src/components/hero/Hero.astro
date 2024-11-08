@@ -1,0 +1,24 @@
+---
+import './hero.css';
+import Boton from '../atoms/Boton.astro';
+---
+
+<section class="hero">
+
+	<div class="hero__container">
+		<div class="text__content">
+			<h1 class="hero__title color__gradiente">\Chaosok\</h1>
+			<p class="hero__text">
+				A computer science student at Le Mans University in France.
+			</p>
+			<Boton href="#about" texto="I want to know more"/>
+		</div>
+    <img
+		class="hero__img"
+		src="../../../public/img/Profile.png"
+		alt="logo chaosok"
+		width="384"
+    	height="384"
+	/>
+	</div>
+</section>

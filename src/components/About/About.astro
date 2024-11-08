@@ -1,0 +1,28 @@
+---
+import SocialIcons from '../SocialIcons.astro';
+import Title from '../atoms/Title.astro';
+import "./about.css"
+
+
+---
+
+<section id="about" class="about">
+	<div class="about__container">
+		<img
+			class="about__img"
+			src="../../../public/img/me.jpg"
+			alt="me logo"
+		/>
+
+		<div class="about__content">
+			<Title margin="1rem" contenido="About me" />
+			<p class="about__text">
+				Finished high school in Cambodia (2018) and in France (2021), both are science Bac. In 2021, I started my first year in a computer science major.
+				I've done several projects like an online shop, a portfolio, some strategy games in C, and networking. 
+				In my free time, I enjoy listening to music and self-studying.
+			</p>
+			<SocialIcons width="25" height="25"/>
+		</div>
+	</div>
+
+</section>
